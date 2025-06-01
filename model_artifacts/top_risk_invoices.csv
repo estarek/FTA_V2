@@ -1,0 +1,51 @@
+invoice_number,true_anomaly,anomaly_risk_score,predicted_anomaly,original_anomaly_type,original_explanation
+INV4211660,1,1.0,1,CONTENT_VAGUE_DESC,Invoice contains vague line item descriptions lacking specific details.
+INV5020777,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
+INV3095828,1,1.0,1,DUPLICATE_INV_EXACT,Potential duplicate payment: Exact same invoice number and amount submitted recently for this vendor.
+INV2095489,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
+INV8897012,1,1.0,1,DUPLICATE_INV_NEAR,Potential duplicate payment: Similar invoice number and amount from same vendor within a short period.
+INV6821962,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
+INV1514967,1,1.0,1,INVOICE_SPLITTING,Potential approval limit avoidance: Large purchase may be split into multiple smaller invoices under threshold.
+INV3310125,1,1.0,1,TIMING_MONTH_END_RUSH,"Invoice submitted at the very end of the reporting period, may warrant closer review."
+INV1514969,1,1.0,1,INVOICE_SPLITTING,Potential approval limit avoidance: Large purchase may be split into multiple smaller invoices under threshold.
+INV8897012,1,1.0,1,DUPLICATE_INV_NEAR,Potential duplicate payment: Similar invoice number and amount from same vendor within a short period.
+INV7814870,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
+INV2285530,1,1.0,1,CONTENT_VAGUE_DESC,Invoice contains vague line item descriptions lacking specific details.
+INV1045773,1,1.0,1,TIMING_AFTER_HOURS,Invoice submitted outside of typical business hours (late night/early morning).
+INV3561374,1,1.0,1,TIMING_AFTER_HOURS,Invoice submitted outside of typical business hours (late night/early morning).
+INV6708554,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
+INV8700416,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
+INV8696550,1,1.0,1,TIMING_AFTER_HOURS,Invoice submitted outside of typical business hours (late night/early morning).
+INV4021302,1,1.0,1,AMOUNT_REPEATED_IDENTICAL,Unusual pattern: The exact same unusual amount appears on invoices from different vendors.
+INV3641953,1,1.0,1,COMPLIANCE_INCORRECT_VAT,VAT amount calculation appears inconsistent with the stated taxable amount and VAT rate.
+INV9920026,1,1.0,1,INVOICE_SPLITTING,Potential approval limit avoidance: Large purchase may be split into multiple smaller invoices under threshold.
+INV2915430,1,1.0,1,DUPLICATE_INV_NEAR,Potential duplicate payment: Similar invoice number and amount from same vendor within a short period.
+INV6816878,1,1.0,1,CONTENT_VAGUE_DESC,Invoice contains vague line item descriptions lacking specific details.
+INV2276600,1,1.0,1,AMOUNT_ROUND_NUMBER,"Invoice amount is a perfect round number, which occurs less frequently in legitimate transactions."
+INV2209326,1,1.0,1,CONTENT_VAGUE_DESC,Invoice contains vague line item descriptions lacking specific details.
+INV7133430,1,1.0,1,CONTENT_VAGUE_DESC,Invoice contains vague line item descriptions lacking specific details.
+INV1830876,1,1.0,1,COMPLIANCE_INCORRECT_VAT,VAT amount calculation appears inconsistent with the stated taxable amount and VAT rate.
+INV4835467,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
+INV4835467,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
+INV1170048,1,1.0,1,DUPLICATE_INV_NEAR,Potential duplicate payment: Similar invoice number and amount from same vendor within a short period.
+INV9920027,1,1.0,1,INVOICE_SPLITTING,Potential approval limit avoidance: Large purchase may be split into multiple smaller invoices under threshold.
+INV2512877,1,1.0,1,DUPLICATE_INV_EXACT,Potential duplicate payment: Exact same invoice number and amount submitted recently for this vendor.
+INV4021302,1,1.0,1,AMOUNT_REPEATED_IDENTICAL,Unusual pattern: The exact same unusual amount appears on invoices from different vendors.
+INV2095489,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
+INV2610559,1,1.0,1,INVOICE_SPLITTING,Potential approval limit avoidance: Large purchase may be split into multiple smaller invoices under threshold.
+INV5370223,1,1.0,1,DUPLICATE_INV_NEAR,Potential duplicate payment: Similar invoice number and amount from same vendor within a short period.
+INV3019797,1,1.0,1,DUPLICATE_INV_EXACT,Potential duplicate payment: Exact same invoice number and amount submitted recently for this vendor.
+INV2598441,1,1.0,1,TIMING_MONTH_END_RUSH,"Invoice submitted at the very end of the reporting period, may warrant closer review."
+INV2873089,1,1.0,1,AMOUNT_ROUND_NUMBER,"Invoice amount is a perfect round number, which occurs less frequently in legitimate transactions."
+INV8909313,1,1.0,1,INVOICE_SPLITTING,Potential approval limit avoidance: Large purchase may be split into multiple smaller invoices under threshold.
+INV8673488,1,1.0,1,DUPLICATE_INV_EXACT,Potential duplicate payment: Exact same invoice number and amount submitted recently for this vendor.
+INV3561374,1,1.0,1,TIMING_AFTER_HOURS,Invoice submitted outside of typical business hours (late night/early morning).
+INV4612629,1,1.0,1,COMPLIANCE_INCORRECT_VAT,VAT amount calculation appears inconsistent with the stated taxable amount and VAT rate.
+INV1045773,1,1.0,1,TIMING_AFTER_HOURS,Invoice submitted outside of typical business hours (late night/early morning).
+INV2909899,1,1.0,1,TIMING_MONTH_END_RUSH,"Invoice submitted at the very end of the reporting period, may warrant closer review."
+INV3626088,1,1.0,1,AMOUNT_REPEATED_IDENTICAL,Unusual pattern: The exact same unusual amount appears on invoices from different vendors.
+INV3049850,1,1.0,1,AMOUNT_REPEATED_IDENTICAL,Unusual pattern: The exact same unusual amount appears on invoices from different vendors.
+INV9805316,1,1.0,1,CONTENT_VAGUE_DESC,Invoice contains vague line item descriptions lacking specific details.
+INV4967138,1,1.0,1,COMPLIANCE_INCORRECT_VAT,VAT amount calculation appears inconsistent with the stated taxable amount and VAT rate.
+INV7743729,1,1.0,1,DUPLICATE_INV_NEAR,Potential duplicate payment: Similar invoice number and amount from same vendor within a short period.
+INV2095489,1,1.0,1,AMOUNT_JUST_UNDER_LIMIT,"Invoice amount is just under a common approval threshold, potentially to bypass controls."
